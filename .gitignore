@@ -1,0 +1,6 @@
+*.tpkg
+*.tar.*
+*.tgz
+*.zip
+*.pem
+*.key

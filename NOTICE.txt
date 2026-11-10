@@ -1,0 +1,5 @@
+X Window System for tOS
+========================
+
+Xfbdev is the kdrive framebuffer server of xorg-server 1.19.7 (xorg-server-1.19.7.tar.bz2 beside this package), built with ./configure --enable-kdrive --enable-xfbdev and the evdev input driver, unmodified. In tOS it draws in the window /dev/fb0 stands for and gets the pointer and keys from /dev/input/event0. The libraries (libX11 1.8.10, libxcb 1.17.0, libXext, libXrender, libXau, libXdmcp, libXfont2, libfontenc, libxkbfile, FreeType 2.13.3, pixman 0.43.4), xkbcomp 1.4.7, the keyboard data of xkeyboard-config 2.43 and the misc bitmap fonts are built from the sources beside this package. Licenses: MIT/X11 (LICENSE) for the X.Org parts, FreeType under its FTL, xkeyboard-config under its MIT-style licence.
+glibc: the programs are linked dynamically against the GNU C Library, which tOS's base system carries.
